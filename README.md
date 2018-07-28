@@ -3,12 +3,6 @@ Github Api Demo
 
 Fetch data from github with [github-api](https://www.npmjs.com/package/github-api)
 
-First to make sure you can visit github api from your computer(it's blocked in some countries), by running command:
-
-```
-curl https://api.github.com
-```
-
 Setup
 -----
 
@@ -38,6 +32,11 @@ npx babel-node --presets node6 src/gists.js
 npx babel-node --presets node6 src/stars.js
 npx babel-node --presets node6 src/orgs.js
 ```
+
+Notice
+------
+
+Some of the github-api urls are blocked or unstable in some countries. If you can't get response in reasonable time, try run the code through proxies.
 
 Resources
 ---------
